@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form {
+  width: 50%;
+  max-width: 350px;
+  padding: 3rem 1em;
+  margin: 10rem auto;
+  border-radius: 1em;
+
+  background-color: #faa628;
+  color: #fff;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.form-input {
+  width: 30%;
+  outline: none;
+  font-size: 1.2rem;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #303030;
+}
+
+.form-area {
+  font-size: inherit;
+  font-family: inherit;
+  width: 100%;
+  padding: 1.4em 0.8em;
+  text-align: center;
+  resize: none;
+  outline: none;
+}
+
+.form-titulo--active {
+  color: #c51414;
+}
+
+.form-buttom {
+  font-size: inherit;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.8em 0;
+  outline: none;
+  border: none;
+}
+
+.form-buttom:hover {
+  background-color: rgb(54, 53, 49);
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.5s;
+  transition: color 0.5s;
+}
